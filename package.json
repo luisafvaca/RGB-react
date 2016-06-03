@@ -1,0 +1,23 @@
+{
+  "name": "rgb-react",
+  "version": "1.0.0",
+  "description": "hobbie",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "6.5.2",
+    "classnames": "2.2.5",
+    "css-loader": "0.23.1",
+    "install": "0.8.1",
+    "react": "15.0.2",
+    "react-dom": "15.0.2",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.0",
+    "webpack-dev-server": "1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luisa Fernanda Vaca Correa <luisafernanda9111@gmail.com> (https://github.com/luisafvaca)",
+  "license": "ISC"
+}
