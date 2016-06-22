@@ -53,7 +53,7 @@ class Rgb extends React.Component {
 const Controller = ({valueText, update , defaultBg}) => {
   return (
     <div>
-      <p className={ css('current-value') } >{valueText}</p>
+      <p rclassName={ css('current-value') } >{valueText}</p>
       <input type="range" min='0' max='255'  defaultValue="255" onChange={ update } />
     </div>
   )
